@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+class Simpson {
+    
+    var name = ""
+    var meslek = ""
+    var image = UIImage()
+    
+    
+    
+}

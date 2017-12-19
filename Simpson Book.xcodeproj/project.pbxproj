@@ -14,6 +14,13 @@
 		C4C349301FE93D9C009D2FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C3492E1FE93D9C009D2FAF /* LaunchScreen.storyboard */; };
 		C4C3493B1FE93D9C009D2FAF /* Simpson_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3493A1FE93D9C009D2FAF /* Simpson_BookTests.swift */; };
 		C4C349461FE93D9C009D2FAF /* Simpson_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C349451FE93D9C009D2FAF /* Simpson_BookUITests.swift */; };
+		C4C349541FE93EB1009D2FAF /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C349531FE93EB1009D2FAF /* detailsVC.swift */; };
+		C4C3495A1FE9411B009D2FAF /* maggie.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C349551FE9411A009D2FAF /* maggie.png */; };
+		C4C3495B1FE9411B009D2FAF /* bart.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C349561FE9411A009D2FAF /* bart.png */; };
+		C4C3495C1FE9411B009D2FAF /* marge.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C349571FE9411B009D2FAF /* marge.png */; };
+		C4C3495D1FE9411B009D2FAF /* homer.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C349581FE9411B009D2FAF /* homer.png */; };
+		C4C3495E1FE9411B009D2FAF /* lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C349591FE9411B009D2FAF /* lisa.png */; };
+		C4C349611FE94162009D2FAF /* Simpsons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C349601FE94162009D2FAF /* Simpsons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		C4C349411FE93D9C009D2FAF /* Simpson BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simpson BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C349451FE93D9C009D2FAF /* Simpson_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson_BookUITests.swift; sourceTree = "<group>"; };
 		C4C349471FE93D9C009D2FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C349531FE93EB1009D2FAF /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		C4C349551FE9411A009D2FAF /* maggie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maggie.png; sourceTree = "<group>"; };
+		C4C349561FE9411A009D2FAF /* bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bart.png; sourceTree = "<group>"; };
+		C4C349571FE9411B009D2FAF /* marge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marge.png; sourceTree = "<group>"; };
+		C4C349581FE9411B009D2FAF /* homer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homer.png; sourceTree = "<group>"; };
+		C4C349591FE9411B009D2FAF /* lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa.png; sourceTree = "<group>"; };
+		C4C349601FE94162009D2FAF /* Simpsons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +111,11 @@
 		C4C349241FE93D9C009D2FAF /* Simpson Book */ = {
 			isa = PBXGroup;
 			children = (
+				C4C3495F1FE9411F009D2FAF /* images */,
 				C4C349251FE93D9C009D2FAF /* AppDelegate.swift */,
 				C4C349271FE93D9C009D2FAF /* ViewController.swift */,
-				C4C349291FE93D9C009D2FAF /* Main.storyboard */,
+				C4C349601FE94162009D2FAF /* Simpsons.swift */,
+				C4C349531FE93EB1009D2FAF /* detailsVC.swift */,
 				C4C3492C1FE93D9C009D2FAF /* Assets.xcassets */,
 				C4C3492E1FE93D9C009D2FAF /* LaunchScreen.storyboard */,
 				C4C349311FE93D9C009D2FAF /* Info.plist */,
@@ -123,6 +139,19 @@
 				C4C349471FE93D9C009D2FAF /* Info.plist */,
 			);
 			path = "Simpson BookUITests";
+			sourceTree = "<group>";
+		};
+		C4C3495F1FE9411F009D2FAF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C4C349561FE9411A009D2FAF /* bart.png */,
+				C4C349581FE9411B009D2FAF /* homer.png */,
+				C4C349591FE9411B009D2FAF /* lisa.png */,
+				C4C349551FE9411A009D2FAF /* maggie.png */,
+				C4C349571FE9411B009D2FAF /* marge.png */,
+				C4C349291FE93D9C009D2FAF /* Main.storyboard */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C3495C1FE9411B009D2FAF /* marge.png in Resources */,
 				C4C349301FE93D9C009D2FAF /* LaunchScreen.storyboard in Resources */,
+				C4C3495B1FE9411B009D2FAF /* bart.png in Resources */,
 				C4C3492D1FE93D9C009D2FAF /* Assets.xcassets in Resources */,
+				C4C3495E1FE9411B009D2FAF /* lisa.png in Resources */,
 				C4C3492B1FE93D9C009D2FAF /* Main.storyboard in Resources */,
+				C4C3495A1FE9411B009D2FAF /* maggie.png in Resources */,
+				C4C3495D1FE9411B009D2FAF /* homer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4C349281FE93D9C009D2FAF /* ViewController.swift in Sources */,
+				C4C349611FE94162009D2FAF /* Simpsons.swift in Sources */,
+				C4C349541FE93EB1009D2FAF /* detailsVC.swift in Sources */,
 				C4C349261FE93D9C009D2FAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CPY5E89ZU;
 				INFOPLIST_FILE = "Simpson Book/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tunymery.Simpson-Book";
@@ -441,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CPY5E89ZU;
 				INFOPLIST_FILE = "Simpson Book/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tunymery.Simpson-Book";
